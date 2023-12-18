@@ -15,7 +15,7 @@ export const DataForm = () => {
       <Row gutter={[24, 24]}>
         <Col xs={24} xl={24}>
           <Form.Item
-            label="Data Id"
+            label="Metric Id"
             name="data"
             // rules={[{ required: true, message: "Please enter description" }]}
             className="user-form-item"
@@ -28,7 +28,7 @@ export const DataForm = () => {
                 minWidth: "100%",
               }}
             >
-              <Input placeholder="Enter a data" />
+              <Input placeholder="Enter Metric Id" />
             </div>
           </Form.Item>
         </Col>
